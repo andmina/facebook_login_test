@@ -37,11 +37,5 @@ try:
 except AssertionError as error:
     print(error)
 
-# home_label = driver.find_element(By.CSS_SELECTOR, "a[aria-label='Home']")
-# assert home_label is not None, "Login failed"
-# print("Login successful")
-
-# a[aria-label="Home"]
-
 # Close the browser
 driver.quit()
